@@ -37,7 +37,7 @@ var
 
 ## Generating CRC-32 lookup table
 
-It is possible to use `dcrc32_table` unit to build any CRC-32 checksum calculator.
+It is possible to use [dcrc32_table](dcrc32_table.pas) unit to build any CRC-32 checksum calculator.
 
 First, generate lookup-table with `GenerateCrc32Table` for specified polynomial (in reversed form):
 
